@@ -16,11 +16,11 @@ int main(int argc, char** argv){
     
     // 提取covdet特征
     siftDesctor covdetQ;
-    covdetQ.imageName = "/Users/willard/codes/cpp/openCVison/sift-match-with-ransac/sift-match-with-ransac/1.jpg";
+    covdetQ.imageName = "/Users/willard/codes/cpp/openCVison/sift-match-with-ransac/sift-match-with-ransac/imgs/7.jpg";
     covdetQ.covdet_keypoints_and_descriptors(covdetQ.imageName, covdetQ.frame, covdetQ.desctor);
     
     siftDesctor covdetD;
-    covdetD.imageName = "/Users/willard/codes/cpp/openCVison/sift-match-with-ransac/sift-match-with-ransac/2.jpg";
+    covdetD.imageName = "/Users/willard/codes/cpp/openCVison/sift-match-with-ransac/sift-match-with-ransac/imgs/8.jpg";
     covdetD.covdet_keypoints_and_descriptors(covdetD.imageName, covdetD.frame, covdetD.desctor);
     
     std::vector<std::vector<int>> idx;
