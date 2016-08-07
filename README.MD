@@ -3,8 +3,8 @@
 ### 依赖工具
 
 - Armadillo: 矩阵运算库  
-- OpenCV  
-- VLfeat  
+- OpenCV 
+- VLfeat：提取SIFT 
 
 Mac下Xcode中按照下面的方式配置即可  
 <p align="center"><img src="./doc/imgs/main.png"  width = 120 alt="search result"/></p>
